@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    background-color: #128596;
+}
+
+.wrap{
+    max-width: 1900px;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle-menu img{
+    display: none;
+    align-items: center;
+    width: 50px;
+}
+
+.navigation{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 60%;
+}
+
+.header-ul{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.header-ul li a{
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+input{
+    text-align: center;
+    background-image: url(./img/lupa.png);
+    background-position: 10px;
+    background-repeat: no-repeat;
+    background-size: 9%;
+    border-radius: 15px;
+    height: 2rem;
+}
+
+.fig-logo img{
+    width: 300px;
+    padding: 1rem 0;
+}
+
+/* MAIN */
+/* Section 1*/
+body{
+    width: 100%;
+    background-color: #79b7c0;
+}
+
+.img-fundo{
+    background-image: url(./img/finn.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 2rem auto;
+    width: 100%;
+    height: 40rem;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #128596;
+    text-shadow: 2px 2px 5px black;
+
+}
+
+.characters{
+    padding-left: 2.5rem;
+    padding-top: 4rem;
+}
+
+.list-friend{
+    padding-top: 1rem;
+}
+
+.list-friend li{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 2.5rem;
+    padding: 10px;
+}
+
+.list-friend a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.profile{
+    background-color: #128596;
+    width: 100%;
+}
+
+.container2{
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Section 2*/
+.text-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.line{
+    background-color: #f5f5f5;
+    width: 250px;
+    height: 5px;
+    position: relative;
+    left: 130px;
+}
+
+/* section 2-Fotos */
+
+.photos{
+    display: flex;
+    width: 50%;
+    margin: 3rem auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    padding: 0 3rem;
+}
+
+.jake{
+    width: 300px;
+    height: 400px;
+    background-image: url(./img/casa\ na\ arvore2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px black;
+}
+
+.jake img{
+    width: 200px;
+    height: 300px;
+    margin-top: 3rem;
+}
+
+.jujuba{
+    width: 300px;
+    height: 400px;
+    background-image: url(./img/FrenteReinoDoce.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px black;
+}
+
+.jujuba img{
+    width: 200px;
+    height: 300px;
+    margin-top: 3rem;
+}
+
+.marceline{
+    width: 300px;
+    height: 400px;
+    background-image: url(./img/marcelinehouse.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px black;
+}
+
+.marceline img{
+    width: 150px;
+    height: 300px;
+    margin-top: 3rem;
+}
+
+.gelado{
+    width: 300px;
+    height: 400px;
+    background-image: url(./img/Ice_Kingdom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px black;
+}
+
+.gelado img{
+    width: 250px;
+    height: 300px;
+    margin-top: 3rem;
+}
+
+.information{
+    background-color: #79b7c0;
+    width: 100%;
+    height: 8rem;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 0 25px 25px;
+    position: absolute;
+    top: -8rem;
+    transition: 1s all;
+}
+
+button{
+    width: 10rem;
+    height: 3rem;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #07505c;
+    color: #ffffff;
+    border: none;
+    position: relative;
+    top: -1.5rem;
+    cursor: pointer;
+}
+/* FOOTER*/
+
+footer{
+    background-color: #07505c;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ref{
+    width: 80%;
+    padding: 1rem;
+    color: #ffffff;
+    line-height: 2rem;
+}
+
+.up img{
+    width: 40px;
+}
+
+/* HOVER */
+.header-ul li a:hover{
+    background-color: #79b7c0;
+    color: #07505c;
+    font-weight: bold;
+}
+
+.list-friend li:hover{
+    cursor: pointer;
+    background-color: #07505c;
+    opacity: .7;
+    width: 30%;
+    color: #ffffff;
+}
+
+.list-friend a:hover{
+    opacity: 1;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.jake:hover .information, .jujuba:hover .information, .marceline:hover .information, .gelado:hover .information{
+    display: flex;
+    top: 0;
+    opacity: .8;
+}
+
+.information h3{
+    font-size: 25px;
+    opacity: 1;
+}
+
+.information p{
+    font-size: 20px;
+    opacity: 1;
+}
+/* @MEDIA */
+
+@media (max-width: 1000px) {
+    .navigation{
+        width: 90%;
+    }
+
+    .header-ul li a{
+        font-size: 25px;
+    }
+
+    footer{
+        flex-direction: row-reverse;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .wrap{
+        width: 100%;
+    }
+
+    .header-ul{
+        width: 50%;
+    }
+
+    .header-ul li a{
+        font-size: 20px;
+    }
+
+    footer{
+        flex-direction: row-reverse;
+    }
+}
+
+@media (max-width: 800px) {
+    .wrap{
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .toggle-menu img{
+        display: flex;
+        cursor: pointer;
+    }
+
+    .fig-logo{
+        padding: auto;
+    }
+    .navigation{
+        display: none;
+    }
+
+    .list-friend li:hover{
+        width: 100%;
+    }
+
+    h1{
+        position: relative;
+        right: 0;
+    }
+
+    .characters{
+        width: 50%;
+        position: absolute;
+        right: 0;
+    }
+
+    .list-friend{
+        position: relative;
+        right: 0;
+    }
+
+    footer{
+        flex-direction: row-reverse;
+    }
+}
